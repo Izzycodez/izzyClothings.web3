@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pay.css">
+    <title>shopping cart</title>
+</head>
+<body>
+    <header>
+        <h1>izzymall</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html" target="_blank">home</a></li>
+            <li><a href="buy.html" target="_blank">buy</a>
+                <ul>
+                    <li><a href="buy.html" target="_blank">Men</a></li>
+                    <li><a href="buy.html" target="_blank">Women</a></li>
+                    <li><a href="buy.html" target="_blank">Children</a></li>
+                </ul>
+            </li>
+            <li><a id="current" href="#pay.html">PAY</a></li>
+            <li><a href="complain.html" target="_blank">complain</a></li>
+            <li><a href="contact.html" target="_blank">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="dapp">            
+            <div id="forms">
+                <label for="amount">Enter amount:</label>
+                <input type="text" name="amount" id="amount">
+            </div>
+             <button id="connect">connect</button>
+             <button id="pay">pay</button>
+             <i>
+                <p id="result" style="font-size: 30px; padding: 10px; margin:20px;"></p></i>
+        </div>
+        
+    </main>
+    <script src="eth.js" type="module"> </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+#dapp{
+    margin: 200px auto;
+    border: 1px solid black;
+    width:55%;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+#forms{
+    margin: 40px auto 20px auto;
+    width: 80%;
+}
+#forms>label{
+    font-size: 30px;
+    width: 20%;
+    margin-right: 20px;
+}
+#forms>input{
+    font-size: 30px;
+    width: 60%;
+}
+#connect {
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 20%;
+  border-radius: 15px;
+  color: green;
+}
+#pay {
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  color: green;
+  width: 130px;
+}
