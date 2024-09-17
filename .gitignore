@@ -2,4 +2,4 @@
 
 .env
 
-ethers-5.6.esm.min.js
+/ethers-5.6.esm.min.js
